@@ -37,6 +37,50 @@ Or
 ```
 yarn add code-specification-unid -D
 ```
+> Note: Since `code-specification-unid` has already consolidated most of the code specification-related dependency packages that may be used, there is no need to reinstall the following dependencies.
+If they are already installed, please delete them by yourself (including the corresponding configuration file):
+```json
+"@babel/core": "^7.12.10",
+"@babel/eslint-parser": "^7.12.1",
+"@babel/plugin-proposal-class-properties": "^7.13.0",
+"@babel/plugin-proposal-decorators": "^7.13.5",
+"@babel/preset-env": "^7.12.11",
+"@babel/preset-react": "^7.12.10",
+"@babel/preset-typescript": "^7.12.7",
+"@commitlint/cli": "^11.0.0",
+"@commitlint/config-conventional": "^11.0.0",
+"@typescript-eslint/eslint-plugin": "^4.10.0",
+"@typescript-eslint/parser": "^4.10.0",
+"eslint": "^7.18.0",
+"eslint-config-prettier": "^7.1.0",
+"eslint-formatter-pretty": "^4.0.0",
+"eslint-plugin-babel": "^5.3.0",
+"eslint-plugin-compat": "^3.1.1",
+"eslint-plugin-eslint-comments": "^3.1.1",
+"eslint-plugin-import": "^2.17.3",
+"eslint-plugin-jest": "^24.0.1",
+"eslint-plugin-jsx-a11y": "^6.2.0",
+"eslint-plugin-markdown": "^1.0.0",
+"eslint-plugin-prettier": "^3.3.1",
+"eslint-plugin-promise": "^4.1.1",
+"eslint-plugin-react": "^7.22.0",
+"eslint-plugin-react-hooks": "^4.2.0",
+"eslint-plugin-unicorn": "^20.0.0",
+"eslint-plugin-filename": "^1.0.0",
+"eslint-plugin-vue": "^7.5.0",
+"husky": "^4.3.8",
+"lint-staged": "^10.5.3",
+"prettier": "^2.2.1",
+"stylelint": "^13.7.0",
+"stylelint-config-css-modules": "^2.2.0",
+"stylelint-config-prettier": "^8.0.2",
+"stylelint-config-rational-order": "^0.1.2",
+"stylelint-config-standard": "^20.0.0",
+"stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+"stylelint-no-unsupported-browser-features": "^4.1.4",
+"stylelint-order": "^4.0.0",
+"stylelint-prettier": "^1.1.2",
+```
 
 # Configuration
 
