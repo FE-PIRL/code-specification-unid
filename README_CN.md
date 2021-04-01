@@ -13,7 +13,6 @@
 > * **prettier** 帮你格式化代码，统一代码格式
 > * **husky** 与**lint-staged** 在提交代码前进行代码检查，提高线上代码质量
 > * **commitlint** 帮你统一commit消息格式
-```
 
 # 特性
 
