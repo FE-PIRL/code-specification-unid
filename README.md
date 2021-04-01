@@ -160,7 +160,7 @@ module.exports = {
 };
 ```
 
-### File name verification (optional)
+#### File name verification (optional)
 
 By default, file name verification does not require any configuration. The default rule is to support `camelcase` or `pascalcase` style file names.
 
@@ -197,7 +197,7 @@ You can even use different rules for different file types, for example:
 'filename/match': [2, { '.js': 'camelCase', '.ts': /^([a-z]+-)*[a-z]+(?:\..*)?$/ }],
 ```
 
-### 2. Call example
+### 2. Call command
 
 If it is a react project, add the following command to the script of your project package.json:
 ```
@@ -216,9 +216,15 @@ If it is a vue project, add the following command to the script of your project 
 "lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,vue,css,less,scss,html,md}\"",
 ```
 
+### Usage example
+
+For a complete usage example, please refer to this [react-snowpack](https://github.com/benyasin/code-specification-unid-demo) example
+
 # Changelog
 
-1.0.0 Initial release
+1.0.0 
+
+* Initial release
 
 # License
 

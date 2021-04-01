@@ -189,7 +189,7 @@ module.exports = {
 'filename/match': [2, { '.js': 'camelCase', '.ts': /^([a-z]+-)*[a-z]+(?:\..*)?$/ }],
 ```
 
-### 2. 调用示例
+### 2. 调用命令
 
 如果是react项目，在你项目package.json的script中添加以下命令：
 ```
@@ -207,9 +207,15 @@ module.exports = {
 "lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,vue,css,less,scss,html,md}\"",
 ```
 
+### 使用示例
+
+完整的使用示例可以参考这个[react-snowpack](https://github.com/benyasin/code-specification-unid-demo) 例子
+
 # 更新日志
 
-1.0.0 初始发布
+1.0.0 
+
+* 初始发布
 
 # 协议
 
