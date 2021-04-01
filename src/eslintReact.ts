@@ -31,6 +31,7 @@ if (isTsProject) {
 }
 
 module.exports = {
+  ignorePatterns: ['.*.js'],
   extends: ['plugin:react/recommended']
     .concat(
       isTsProject ? ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'] : [],

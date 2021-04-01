@@ -32,6 +32,7 @@ if (isTsProject) {
 }
 
 module.exports = {
+  ignorePatterns: ['.*.js'],
   extends: [
     'plugin:vue/base',
     'plugin:vue/vue3-essential',

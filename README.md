@@ -220,9 +220,14 @@ For a complete usage example, please refer to this [react-snowpack](https://gith
 
 # Changelog
 
+1.0.3
+
+* add eslint ignore pattern for `.*.js`
+
 1.0.0 
 
 * Initial release
+
 
 # License
 
