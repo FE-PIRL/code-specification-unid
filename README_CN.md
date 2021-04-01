@@ -8,16 +8,11 @@
 [![Coverage Status][coverage-image]][coverage-url]
 [![License: MIT][license-image]][license-url]
 
-```
-**eslint** 帮你发现js错误，提高js代码质量
-
-**stylelint** 帮你发现css错误，提高css代码质量
-
-**prettier** 帮你格式化代码，统一代码格式
-
-**husky** 与**lint-staged** 在提交代码前进行代码检查，提高线上代码质量
-
-**commitlint** 帮你统一commit消息格式
+> * **eslint** 帮你发现js错误，提高js代码质量
+> * **stylelint** 帮你发现css错误，提高css代码质量
+> * **prettier** 帮你格式化代码，统一代码格式
+> * **husky** 与**lint-staged** 在提交代码前进行代码检查，提高线上代码质量
+> * **commitlint** 帮你统一commit消息格式
 ```
 
 # 特性
@@ -74,7 +69,7 @@ module.exports = {
 in `.prettierrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.prettier,
@@ -85,7 +80,7 @@ module.exports = {
 in `.huskyrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.husky,
@@ -96,7 +91,7 @@ module.exports = {
 in `.lintstagedrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.lintstaged,
@@ -107,7 +102,7 @@ module.exports = {
 in `.commitlintrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.commitlint,

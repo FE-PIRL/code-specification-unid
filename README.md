@@ -12,17 +12,13 @@ It's a collection of unified configuration files including `prettier`, `eslint`,
 [![Coverage Status][coverage-image]][coverage-url]
 [![License: MIT][license-image]][license-url]
 
-```
-**eslint** helps you find js errors and improve the quality of js code
 
-**stylelint** helps you find css errors and improve the quality of css code
+> * **eslint** helps you find js errors and improve the quality of js code
+> * **stylelint** helps you find css errors and improve the quality of css code
+> * **Prettier** helps you format the code, unify code format
+> * **Husky** and **lint-staged** run code inspections before submitting code to improve the quality of online code
+> * **commitlint** helps you unify the commit message format
 
-**Prettier** helps you format the code, unify code format
-
-**Husky** and **lint-staged** run code inspections before submitting code to improve the quality of online code
-
-**commitlint** helps you unify the commit message format
-```
 
 # Features
 
@@ -79,7 +75,7 @@ module.exports = {
 in `.prettierrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.prettier,
@@ -90,7 +86,7 @@ module.exports = {
 in `.huskyrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.husky,
@@ -101,7 +97,7 @@ module.exports = {
 in `.lintstagedrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.lintstaged,
@@ -112,7 +108,7 @@ module.exports = {
 in `.commitlintrc.js`
 
 ```js
-const spec = require('code-specification-unid2');
+const spec = require('code-specification-unid');
 
 module.exports = {
     ...spec.commitlint,
