@@ -1,0 +1,80 @@
+{
+  "name": "code-specification-unid",
+  "version": "1.0.0",
+  "description": "A collection of configuration files containing prettier, eslint, stylelint, husky, lint-staged, commitlint",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "stylelint",
+    "husky",
+    "lint-staged",
+    "commitlint"
+  ],
+  "homepage": "https://github.com/FE-PIRL/code-specification-unid#readme",
+  "bugs": {
+    "url": "https://github.com/FE-PIRL/code-specification-unid/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:FE-PIRL/code-specification-unid.git"
+  },
+  "author": "benyasin",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "deps": "yarn upgrade-interactive --latest",
+    "lib": "cross-env TIMING=1 eslint lib",
+    "lint": "npm run build && cd example && npm run lint",
+    "prettier": "prettier -c --write \"**/*\""
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-formatter-pretty": "^4.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-compat": "^3.1.1",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-filename": "^1.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^24.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^20.0.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
+    "stylelint-no-unsupported-browser-features": "^4.1.4",
+    "stylelint-order": "^4.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
