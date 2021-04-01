@@ -1,6 +1,6 @@
 {
   "name": "code-specification-unid",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A collection of configuration files containing prettier, eslint, stylelint, husky, lint-staged, commitlint",
   "keywords": [
     "eslint",

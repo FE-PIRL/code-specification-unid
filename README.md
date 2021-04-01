@@ -8,8 +8,6 @@ It's a collection of unified configuration files including `prettier`, `eslint`,
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coverage-image]][coverage-url]
 [![License: MIT][license-image]][license-url]
 
 
@@ -234,9 +232,5 @@ MIT
 [npm-url]: https://npmjs.org/package/code-specification-unid
 [downloads-image]: https://img.shields.io/npm/dm/code-specification-unid.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/code-specification-unid
-[travis-image]: https://img.shields.io/travis/dolsem/code-specification-unid.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dolsem/code-specification-unid
-[coverage-image]: https://img.shields.io/coveralls/dolsem/code-specification-unid.svg?style=flat-square
-[coverage-url]: https://coveralls.io/github/dolsem/code-specification-unid?branch=master
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT
