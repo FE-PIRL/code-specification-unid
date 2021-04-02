@@ -20,10 +20,10 @@ It's a collection of unified configuration files including `prettier`, `eslint`,
 
 # Features
 
-* All projects uniformly use an agreed code specification;
-* Put a large number of third-party dependencies back to simplify business code;
-* On the basis of inheriting the unified specification, still provide customization capabilities;
-* Support React, Vue2, Vue3 projects, and support file name verification;
+* 🔖 All projects uniformly use an agreed code specification;
+* 📦 Put a large number of third-party dependencies back to simplify business code;
+* ✏️ On the basis of inheriting the unified specification, still provide customization capabilities;
+* 🏆 Support React, Vue2, Vue3 projects, and support file name verification;
 
 # Installation
 
