@@ -158,6 +158,8 @@ module.exports = {
 };
 ```
 
+> Note: The format types of submitted message are `'upd','feat','fix','refactor','docs','chore','style','revert'`, for example: `feat: add support for i18n`
+
 #### File name verification (optional)
 
 By default, file name verification does not require any configuration. The default rule is to support `camelcase` or `pascalcase` style file names.

@@ -153,6 +153,8 @@ module.exports = {
 };
 ```
 
+> 注意：提交消息的格式类型有` 'upd', 'feat', 'fix', 'refactor', 'docs', 'chore', 'style', 'revert'`, 比如：`feat: 添加国际化支持`
+
 #### 文件名校验(可选)
 
 文件名校验在默认情况下，不需要做任何配置，默认规则是支持 `camelcase` 或 `pascalcase`风格的文件名。
