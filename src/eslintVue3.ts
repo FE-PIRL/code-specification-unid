@@ -56,6 +56,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    'filename/match': [2, ['camelcase', 'pascalcase']],
     ...(isTsProject ? tsEslintConfig : {}),
   },
   settings: {
@@ -70,7 +71,6 @@ module.exports = {
     },
     'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts', '.vue'],
     'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-    'filename/match': [2, ['camelcase', 'pascalcase']],
     polyfills: ['fetch', 'Promise', 'URL', 'object-assign'],
   },
   parserOptions: isTsProject ? Object.assign(parserOptions, { project: './tsconfig.json' }) : parserOptions,
