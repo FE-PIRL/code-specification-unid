@@ -4,8 +4,6 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coverage-image]][coverage-url]
 [![License: MIT][license-image]][license-url]
 
 > * **eslint** 帮你发现js错误，提高js代码质量
