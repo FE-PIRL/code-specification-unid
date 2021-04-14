@@ -1,6 +1,6 @@
 # code-specification-unid
 
-中文文档看[这里](https://github.com/FE-PIRL/code-specification-unid/blob/master/README_CN.md)
+English | [简体中文](https://github.com/FE-PIRL/code-specification-unid/blob/master/README_CN.md)
 
 Produced to solve the problem of inconsistent code specifications for multiple projects in the team.
 
