@@ -1,5 +1,7 @@
 # code-specification-unid
 
+简体中文| [English](https://github.com/FE-PIRL/code-specification-unid/edit/master/README.md)
+
 为了解决团队中多个项目代码规范不统一的问题而产生。 包含 `prettier`，`eslint`，`stylelint`, `husky`, `lint-staged`, `commitlint` 的统一配置文件合集.
 
 [![NPM Version][npm-image]][npm-url]
