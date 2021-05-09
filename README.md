@@ -4,7 +4,7 @@ English | [简体中文](https://github.com/FE-PIRL/code-specification-unid/blob
 
 Produced to solve the problem of inconsistent code specifications for multiple projects in the team.
 
-It's a collection of unified configuration files including `prettier`, `eslint`, `stylelint`, `husky`, `lint-staged`, and `commitlint` support for react、vue2、vue3 and svelte.
+It's a collection of unified configuration files including `prettier`, `eslint`, `stylelint`, `husky`, `lint-staged`, and `commitlint` support `react`、`vue2`、`vue3` and `svelte3`.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]

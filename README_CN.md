@@ -2,7 +2,7 @@
 
 简体中文| [English](https://github.com/FE-PIRL/code-specification-unid/blob/master/README.md)
 
-为了解决团队中多个项目代码规范不统一的问题而产生。 包含 `prettier`，`eslint`，`stylelint`, `husky`, `lint-staged`, `commitlint` 的统一配置文件合集, 支持react、vue2、vue3 and svelte.
+为了解决团队中多个项目代码规范不统一的问题而产生。 包含 `prettier`，`eslint`，`stylelint`, `husky`, `lint-staged`, `commitlint` 的统一配置文件合集, 支持`react`、`vue2`、`vue3` and `svelte3`.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
