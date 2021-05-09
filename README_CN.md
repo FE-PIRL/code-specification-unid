@@ -2,7 +2,7 @@
 
 简体中文| [English](https://github.com/FE-PIRL/code-specification-unid/blob/master/README.md)
 
-为了解决团队中多个项目代码规范不统一的问题而产生。 包含 `prettier`，`eslint`，`stylelint`, `husky`, `lint-staged`, `commitlint` 的统一配置文件合集.
+为了解决团队中多个项目代码规范不统一的问题而产生。 包含 `prettier`，`eslint`，`stylelint`, `husky`, `lint-staged`, `commitlint` 的统一配置文件合集, 支持react、vue2、vue3 and svelte.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -97,6 +97,8 @@ module.exports = {
 > vue2  对应 `eslintVue2`
 >
 > vue3  对应 `eslintVue3`
+> 
+> svelte  对应 `eslintSvelte`
 
 in `.stylelintrc.js`
 
@@ -209,11 +211,23 @@ module.exports = {
 "lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,vue,css,less,scss,html,md}\"",
 ```
 
+如果是svelte项目，在你项目package.json的script中添加以下命令：
+```
+"lint": "npm run lint:js && npm run lint:css && npm run lint:format",
+"lint:js": "eslint src --fix --ext .js,.jsx,.ts,.tsx,.svelte --cache --cache-location node_modules/.cache/eslint/",
+"lint:css": "stylelint --fix \"src/**/*.{less,postcss,css,scss,svelte}\" --cache --cache-location node_modules/.cache/stylelint/",
+"lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,svelte,css,less,scss,html,md}\"",
+```
+
 ### 使用示例
 
 完整的使用示例可以参考这个[react-snowpack](https://github.com/benyasin/code-specification-unid-demo) 例子
 
 # 更新日志
+
+1.0.7
+
+* 添加对svelte的支持
 
 1.0.5
 

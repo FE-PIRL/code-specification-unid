@@ -26,4 +26,9 @@ module.exports = {
       },
     },
   ],
+  "svelteSortOrder" : "options-styles-scripts-markup",
+  "svelteStrictMode": true,
+  "svelteBracketNewLine": false,
+  "svelteAllowShorthand": false,
+  "svelteIndentScriptAndStyle": false
 };

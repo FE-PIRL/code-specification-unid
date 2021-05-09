@@ -4,7 +4,7 @@ English | [简体中文](https://github.com/FE-PIRL/code-specification-unid/blob
 
 Produced to solve the problem of inconsistent code specifications for multiple projects in the team.
 
-It's a collection of unified configuration files including `prettier`, `eslint`, `stylelint`, `husky`, `lint-staged`, and `commitlint`.
+It's a collection of unified configuration files including `prettier`, `eslint`, `stylelint`, `husky`, `lint-staged`, and `commitlint` support for react、vue2、vue3 and svelte.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -102,6 +102,8 @@ module.exports = {
 > vue2 corresponds to `eslintVue2`
 >
 > vue3 corresponds to `eslintVue3`
+>
+> svelte corresponds to `eslintSvelte`
 
 in `.stylelintrc.js`
 
@@ -216,11 +218,24 @@ If it is a vue project, add the following command to the script of your project 
 "lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,vue,css,less,scss,html,md}\"",
 ```
 
+If it is a svelte project, add the following command to the script of your project package.json:
+
+```
+"lint": "npm run lint:js && npm run lint:css && npm run lint:format",
+"lint:js": "eslint src --fix --ext .js,.jsx,.ts,.tsx,.svelte --cache --cache-location node_modules/.cache/eslint/",
+"lint:css": "stylelint --fix \"src/**/*.{less,postcss,css,scss,svelte}\" --cache --cache-location node_modules/.cache/stylelint/",
+"lint:format": "prettier --write  \"src/**/*.{js,json,ts,tsx,svelte,css,less,scss,html,md}\"",
+```
+
 ### Usage example
 
 For a complete usage example, please refer to this [react-snowpack](https://github.com/benyasin/code-specification-unid-demo) example
 
 # Changelog
+
+1.0.7
+
+* add supports for svelte
 
 1.0.5
 
