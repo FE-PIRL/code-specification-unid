@@ -50,6 +50,7 @@ yarn add code-specification-unid -D
 "eslint-plugin-babel": "^5.3.0",
 "eslint-plugin-compat": "^3.1.1",
 "eslint-plugin-eslint-comments": "^3.1.1",
+"eslint-plugin-filename": "^1.0.0",
 "eslint-plugin-import": "^2.17.3",
 "eslint-plugin-jest": "^24.0.1",
 "eslint-plugin-jsx-a11y": "^6.2.0",
@@ -58,12 +59,13 @@ yarn add code-specification-unid -D
 "eslint-plugin-promise": "^4.1.1",
 "eslint-plugin-react": "^7.22.0",
 "eslint-plugin-react-hooks": "^4.2.0",
+"eslint-plugin-svelte3": "^3.2.0",
 "eslint-plugin-unicorn": "^20.0.0",
-"eslint-plugin-filename": "^1.0.0",
 "eslint-plugin-vue": "^7.5.0",
 "husky": "^4.3.8",
 "lint-staged": "^10.5.3",
 "prettier": "^2.2.1",
+"prettier-plugin-svelte": "^2.2.0",
 "stylelint": "^13.7.0",
 "stylelint-config-css-modules": "^2.2.0",
 "stylelint-config-prettier": "^8.0.2",
@@ -73,6 +75,7 @@ yarn add code-specification-unid -D
 "stylelint-no-unsupported-browser-features": "^4.1.4",
 "stylelint-order": "^4.0.0",
 "stylelint-prettier": "^1.1.2",
+"stylelint-scss": "^3.19.0"
 ```
 
 # 配置
