@@ -228,6 +228,10 @@ module.exports = {
 
 # 更新日志
 
+1.0.9
+
+* 添加stylelint-scss插件
+
 1.0.7
 
 * 添加对svelte的支持

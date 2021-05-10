@@ -236,6 +236,10 @@ For a complete usage example, please refer to this [react-snowpack](https://gith
 
 # Changelog
 
+1.0.9
+
+* add stylelint-scss plugin
+
 1.0.7
 
 * add supports for svelte

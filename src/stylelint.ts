@@ -1,5 +1,5 @@
+"use strict";
 /** @format */
-
 module.exports = {
   extends: [
     'stylelint-config-standard',
@@ -9,18 +9,35 @@ module.exports = {
     'stylelint-no-unsupported-browser-features',
     'stylelint-prettier/recommended',
   ],
-  plugins: ['stylelint-order', 'stylelint-declaration-block-no-ignored-properties'],
+  plugins: ['stylelint-order', "stylelint-scss", 'stylelint-declaration-block-no-ignored-properties'],
   rules: {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/comment-no-empty": true,
+    "scss/at-if-no-null": true,
+    "scss/at-function-parentheses-space-before": "never",
+    "scss/at-mixin-parentheses-space-before": "never",
+    "scss/at-import-no-partial-leading-underscore": true,
+    "scss/dollar-variable-colon-space-after": "always",
+    "scss/double-slash-comment-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ],
+        "ignore": [
+          "between-comments",
+          "stylelint-commands"
+        ]
+      }
+    ],
+    "scss/declaration-nested-properties": "never",
+    "scss/no-duplicate-mixins": true,
+
     'selector-pseudo-class-no-unknown': [
       true,
       {
         ignorePseudoClasses: ['global'],
-      },
-    ],
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: ['function', 'if', 'each', 'include', 'mixin'],
       },
     ],
     'no-empty-source': null,
