@@ -42,11 +42,11 @@ yarn add code-specification-unid -D
 "@babel/preset-typescript": "^7.12.7",
 "@commitlint/cli": "^11.0.0",
 "@commitlint/config-conventional": "^11.0.0",
-"@typescript-eslint/eslint-plugin": "^4.10.0",
-"@typescript-eslint/parser": "^4.10.0",
-"eslint": "^7.18.0",
-"eslint-config-prettier": "^7.1.0",
-"eslint-formatter-pretty": "^4.0.0",
+"@typescript-eslint/eslint-plugin": "^4.28.1",
+"@typescript-eslint/parser": "^4.28.1",
+"eslint": "^7.29.0",
+"eslint-config-prettier": "^8.3.0",
+"eslint-formatter-pretty": "^4.1.0",
 "eslint-plugin-babel": "^5.3.0",
 "eslint-plugin-compat": "^3.1.1",
 "eslint-plugin-eslint-comments": "^3.1.1",
@@ -55,7 +55,7 @@ yarn add code-specification-unid -D
 "eslint-plugin-jest": "^24.0.1",
 "eslint-plugin-jsx-a11y": "^6.2.0",
 "eslint-plugin-markdown": "^1.0.0",
-"eslint-plugin-prettier": "^3.3.1",
+"eslint-plugin-prettier": "^3.4.0",
 "eslint-plugin-promise": "^4.1.1",
 "eslint-plugin-react": "^7.22.0",
 "eslint-plugin-react-hooks": "^4.2.0",
@@ -64,7 +64,7 @@ yarn add code-specification-unid -D
 "eslint-plugin-vue": "^7.5.0",
 "husky": "^4.3.8",
 "lint-staged": "^10.5.3",
-"prettier": "^2.2.1",
+"prettier": "^2.3.2",
 "prettier-plugin-svelte": "^2.2.0",
 "stylelint": "^13.7.0",
 "stylelint-config-css-modules": "^2.2.0",
@@ -227,6 +227,10 @@ module.exports = {
 完整的使用示例可以参考这个[react-snowpack](https://github.com/benyasin/code-specification-unid-demo) 例子
 
 # 更新日志
+
+1.0.10
+
+* 添加 eslint 对 typescript 3.8+ 新语法 `import type`的支持
 
 1.0.9
 

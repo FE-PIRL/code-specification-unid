@@ -47,11 +47,11 @@ If they are already installed, please delete them by yourself (including the cor
 "@babel/preset-typescript": "^7.12.7",
 "@commitlint/cli": "^11.0.0",
 "@commitlint/config-conventional": "^11.0.0",
-"@typescript-eslint/eslint-plugin": "^4.10.0",
-"@typescript-eslint/parser": "^4.10.0",
-"eslint": "^7.18.0",
-"eslint-config-prettier": "^7.1.0",
-"eslint-formatter-pretty": "^4.0.0",
+"@typescript-eslint/eslint-plugin": "^4.28.1",
+"@typescript-eslint/parser": "^4.28.1",
+"eslint": "^7.29.0",
+"eslint-config-prettier": "^8.3.0",
+"eslint-formatter-pretty": "^4.1.0",
 "eslint-plugin-babel": "^5.3.0",
 "eslint-plugin-compat": "^3.1.1",
 "eslint-plugin-eslint-comments": "^3.1.1",
@@ -60,7 +60,7 @@ If they are already installed, please delete them by yourself (including the cor
 "eslint-plugin-jest": "^24.0.1",
 "eslint-plugin-jsx-a11y": "^6.2.0",
 "eslint-plugin-markdown": "^1.0.0",
-"eslint-plugin-prettier": "^3.3.1",
+"eslint-plugin-prettier": "^3.4.0",
 "eslint-plugin-promise": "^4.1.1",
 "eslint-plugin-react": "^7.22.0",
 "eslint-plugin-react-hooks": "^4.2.0",
@@ -69,7 +69,7 @@ If they are already installed, please delete them by yourself (including the cor
 "eslint-plugin-vue": "^7.5.0",
 "husky": "^4.3.8",
 "lint-staged": "^10.5.3",
-"prettier": "^2.2.1",
+"prettier": "^2.3.2",
 "prettier-plugin-svelte": "^2.2.0",
 "stylelint": "^13.7.0",
 "stylelint-config-css-modules": "^2.2.0",
@@ -235,6 +235,10 @@ If it is a svelte project, add the following command to the script of your proje
 For a complete usage example, please refer to this [react-snowpack](https://github.com/benyasin/code-specification-unid-demo) example
 
 # Changelog
+
+1.0.10
+
+* add ESLint support for Typescript 3.8+ `import type` syntax
 
 1.0.9
 
