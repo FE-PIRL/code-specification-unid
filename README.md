@@ -236,7 +236,7 @@ For a complete usage example, please refer to this [react-snowpack](https://gith
 
 # Changelog
 
-1.0.10
+1.0.11
 
 * add ESLint support for Typescript 3.8+ `import type` syntax
 

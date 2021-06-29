@@ -30,7 +30,7 @@ if (isTsProject) {
 
 module.exports = {
   ignorePatterns: ['.*.js'],
-  extends: (isTsProject ? ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'] : ['eslint:recommended']),
+  extends: (isTsProject ? ['plugin:@typescript-eslint/recommended'] : ['eslint:recommended']),
   parser: isTsProject ? '@typescript-eslint/parser' : '@babel/eslint-parser',
   plugins: ['eslint-comments', 'jest', 'unicorn', 'filename', 'svelte3'],
   overrides: [

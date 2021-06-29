@@ -34,9 +34,9 @@ module.exports = {
   ignorePatterns: ['.*.js'],
   extends: ['plugin:react/recommended']
     .concat(
-      isTsProject ? ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'] : [],
+      isTsProject ? ['plugin:@typescript-eslint/recommended'] : [],
     )
-    .concat(['prettier', 'prettier/react', 'plugin:prettier/recommended']),
+    .concat(['prettier','plugin:prettier/recommended']),
   parser: isTsProject ? '@typescript-eslint/parser' : '@babel/eslint-parser',
   plugins: ['eslint-comments', 'react', 'jest', 'unicorn', 'react-hooks', 'filename'],
   env: {

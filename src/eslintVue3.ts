@@ -38,10 +38,9 @@ module.exports = {
     'plugin:vue/vue3-essential',
     'plugin:vue/vue3-strongly-recommended',
     'plugin:vue/vue3-recommended',
-    'prettier/vue',
   ]
     .concat(
-      isTsProject ? ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'] : [],
+      isTsProject ? ['plugin:@typescript-eslint/recommended'] : [],
     )
     .concat(['plugin:prettier/recommended']),
   parser: 'vue-eslint-parser',

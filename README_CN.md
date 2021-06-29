@@ -228,7 +228,7 @@ module.exports = {
 
 # 更新日志
 
-1.0.10
+1.0.11
 
 * 添加 eslint 对 typescript 3.8+ 新语法 `import type`的支持
 
