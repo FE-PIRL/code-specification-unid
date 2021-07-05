@@ -35,7 +35,7 @@ module.exports = {
   plugins: ['eslint-comments', 'jest', 'unicorn', 'filename', 'svelte3'],
   overrides: [
     {
-      files: ['**/*.svelte'],
+      files: ['*.svelte'],
       processor: 'svelte3/svelte3',
     },
   ],
