@@ -31,7 +31,6 @@ module.exports = {
         ]
       }
     ],
-    "scss/declaration-nested-properties": "never",
     "scss/no-duplicate-mixins": true,
 
     'selector-pseudo-class-no-unknown': [
