@@ -5966,8 +5966,8 @@ stylelint-config-prettier@^8.0.2:
 
 stylelint-config-rational-order@^0.1.2:
   version "0.1.2"
-  resolved "https://registry.npmjs.org/stylelint-config-rational-order/-/stylelint-config-rational-order-0.1.2.tgz#4e98e390783d437f0ec41fb73bc41992e78d02a0"
-  integrity sha512-Qo7ZQaihCwTqijfZg4sbdQQHtugOX/B1/fYh018EiDZHW+lkqH9uHOnsDwDPGZrYJuB6CoyI7MZh2ecw2dOkew==
+  resolved "https://npm.corp.kuaishou.com/stylelint-config-rational-order/-/stylelint-config-rational-order-0.1.2.tgz#4e98e390783d437f0ec41fb73bc41992e78d02a0"
+  integrity sha1-TpjjkHg9Q38OxB+3O8QZkueNAqA=
   dependencies:
     stylelint "^9.10.1"
     stylelint-order "^2.2.1"
@@ -6009,10 +6009,10 @@ stylelint-order@^2.2.1:
     postcss "^7.0.2"
     postcss-sorting "^4.1.0"
 
-stylelint-order@^4.0.0:
+stylelint-order@^4.1.0:
   version "4.1.0"
-  resolved "https://registry.npmjs.org/stylelint-order/-/stylelint-order-4.1.0.tgz#692d05b7d0c235ac66fcf5ea1d9e5f08a76747f6"
-  integrity sha512-sVTikaDvMqg2aJjh4r48jsdfmqLT+nqB1MOsaBnvM3OwLx4S+WXcsxsgk5w18h/OZoxZCxuyXMh61iBHcj9Qiw==
+  resolved "https://npm.corp.kuaishou.com/stylelint-order/-/stylelint-order-4.1.0.tgz#692d05b7d0c235ac66fcf5ea1d9e5f08a76747f6"
+  integrity sha1-aS0Ft9DCNaxm/PXqHZ5fCKdnR/Y=
   dependencies:
     lodash "^4.17.15"
     postcss "^7.0.31"

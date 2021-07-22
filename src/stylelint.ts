@@ -9,8 +9,26 @@ module.exports = {
     'stylelint-no-unsupported-browser-features',
     'stylelint-prettier/recommended',
   ],
-  plugins: ['stylelint-order', "stylelint-scss", 'stylelint-declaration-block-no-ignored-properties'],
+  plugins: ['stylelint-order', "stylelint-config-rational-order/plugin", "stylelint-scss", 'stylelint-declaration-block-no-ignored-properties'],
   rules: {
+    // `standard` conflict with `rational-order`
+    "declaration-empty-line-before": [
+      "never",
+      {
+        except: ['after-comment', 'after-declaration', 'first-nested'],
+        ignore: [
+          "after-comment",
+          "after-declaration",
+          "first-nested",
+          "inside-single-line-block",
+        ],
+      },
+    ],
+    "order/properties-order": [],
+    "plugin/rational-order": [true, {
+      "border-in-box-model": false,
+      "empty-line-between-groups": true,
+    }],
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/comment-no-empty": true,
@@ -33,29 +51,29 @@ module.exports = {
     ],
     "scss/no-duplicate-mixins": true,
 
-    'selector-pseudo-class-no-unknown': [
+    "selector-pseudo-class-no-unknown": [
       true,
       {
-        ignorePseudoClasses: ['global'],
+        ignorePseudoClasses: ["global"],
       },
     ],
-    'no-empty-source': null,
-    'unicode-bom': 'never',
-    'no-descending-specificity': null,
-    'font-family-no-missing-generic-family-keyword': null,
-    'declaration-colon-space-after': 'always-single-line',
-    'declaration-colon-space-before': 'never',
-    'rule-empty-line-before': [
-      'always',
+    "no-empty-source": null,
+    "unicode-bom": "never",
+    "no-descending-specificity": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-colon-space-before": "never",
+    "rule-empty-line-before": [
+      "always",
       {
-        ignore: ['after-comment', 'first-nested'],
+        ignore: ["after-comment", "first-nested"],
       },
     ],
     //https://github.com/stylelint/stylelint/issues/4114
-    'function-calc-no-invalid': null,
-    'function-url-quotes': 'always',
-    'plugin/declaration-block-no-ignored-properties': true,
-    'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    "function-calc-no-invalid": null,
+    "function-url-quotes": "always",
+    "plugin/declaration-block-no-ignored-properties": true,
+    "unit-no-unknown": [true, { ignoreUnits: ["rpx"] }],
   },
-  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
+  ignoreFiles: ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts"],
 };

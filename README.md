@@ -236,6 +236,10 @@ For a complete usage example, please refer to this [react-snowpack](https://gith
 
 # Changelog
 
+1.0.13
+
+* add supports for style order auto fixing
+
 1.0.12
 
 * fix stylelint some default rules
